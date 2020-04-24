@@ -7,7 +7,7 @@ cisco
 rtr1 ansible_host=35.182.253.237 private_ip=172.16.246.179
 rtr2 ansible_host=35.183.148.238 private_ip=172.17.148.190
 rtr3 ansible_host=35.183.120.103 private_ip=172.16.172.246
-rtr4 ansible_host=35.182.19.189 private_ip=172.17.45.14
+rtr44 ansible_host=35.182.19.189 private_ip=172.17.45.14
 
 
 [cisco:vars]
@@ -25,7 +25,7 @@ BMdc11
 
 [dc2]
 rtr2
-rtr4
+rtr44
 bmdc2
 bmdc99
 
