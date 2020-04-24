@@ -19,6 +19,7 @@ ansible_connection=network_cli
 [dc1]
 rtr1
 rtr3
+rtr4
 
 [dc2]
 rtr2
