@@ -29,6 +29,7 @@ bmdc2
 
 [hosts]
 host1 ansible_host=35.183.15.179 ansible_user=ec2-user private_ip=172.17.182.250
+host_demo_server1
 
 [control]
 ansible ansible_host=35.183.124.24 ansible_user=student2 private_ip=172.16.53.104
