@@ -21,6 +21,7 @@ rtr1
 rtr3
 rtrdc1
 bmdc1
+BMdc11
 
 [dc2]
 rtr2
@@ -30,7 +31,6 @@ bmdc99
 
 [hosts]
 host1 ansible_host=35.183.15.179 ansible_user=ec2-user private_ip=172.17.182.250
-host99 ansible_host= 8.8.8.8
 
 [control]
 ansible ansible_host=35.183.124.24 ansible_user=student2 private_ip=172.16.53.104
